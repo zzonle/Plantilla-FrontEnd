@@ -16,35 +16,27 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
-                            <li class="nav-item "><a class="nav-link active" href="/index.html">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/index.html">Inicio</a></li>
                             <li class="nav-item"><a class="nav-link" href="/views/formulario.html">Agregar producto</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/views/inventario.html">Inventario</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="/views/inventario.html">Inventario</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
-        <main class="container py-5">
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <div class="card shadow-sm">
-                        <div class="card-header bg-dark text-white">Inventario</div>
-                        <div class="card-body">
-                            <p>Visualiza stock y gestiona en tiempo real.</p>
-                            <a href="/views/inventario.html" class="btn btn-secondary">Ver Inventario</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card shadow-sm">
-                        <div class="card-header bg-dark text-white">Agregar Producto</div>
-                        <div class="card-body">
-                            <p>Registra nuevos productos a tu inventario.</p>
-                            <a href="/views/formulario.html" class="btn btn-secondary">Agregar</a>
-                        </div>
-                    </div>
-                </div>  
-            </div>
+        <main>
+            <table class="table " id="inventario-tabla">
+                <thead class="table-light">
+                    <tr class="text-center">
+                        <th>Nombre</th>
+                        <th>Marca</th>
+                        <th>Cantidad</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                </tbody>
+            </table>
         </main>
         <footer class="bg-dark text-white text-center py-4">
             <div class="container">

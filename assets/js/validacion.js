@@ -1,0 +1,27 @@
+const productosElectronicos = [
+    { nombre: "Laptop Dell XPS 15", marca: "Dell", stock: 5, precio: 1500 },
+    { nombre: "Smartphone iPhone 14", marca: "Apple", stock: 8, precio: 1200 },
+    { nombre: "Monitor UltraSharp 27\"", marca: "Dell", stock: 3, precio: 350 },
+    { nombre: "Teclado mecánico K95", marca: "Corsair", stock: 10, precio: 180 },
+    { nombre: "Auriculares WH-1000XM4", marca: "Sony", stock: 6, precio: 300 },
+    { nombre: "Tablet Galaxy Tab S8", marca: "Samsung", stock: 4, precio: 800 },
+    { nombre: "Cámara Mirrorless Alpha 7 IV", marca: "Sony", stock: 2, precio: 2500 },
+    { nombre: "Router WiFi 6 AX6000", marca: "TP-Link", stock: 7, precio: 220 },
+    { nombre: "Disco SSD NVMe 1TB", marca: "Samsung", stock: 15, precio: 130 },
+    { nombre: "Mouse inalámbrico MX Master 3", marca: "Logitech", stock: 9, precio: 100 },
+    { nombre: "Auriculares Gaming Kraken X", marca: "Razer", stock: 12, precio: 60 },
+    { nombre: "Smartwatch Galaxy Watch 5", marca: "Samsung", stock: 5, precio: 250 },
+    { nombre: "Impresora láser HP LaserJet Pro", marca: "HP", stock: 3, precio: 400 },
+    { nombre: "Altavoces Bluetooth Soundcore", marca: "Anker", stock: 6, precio: 90 },
+    { nombre: "Microprocesador Ryzen 9 7900X", marca: "AMD", stock: 4, precio: 500 },
+    { nombre: "Tarjeta gráfica RTX 4070 Ti", marca: "NVIDIA", stock: 2, precio: 900 },
+    { nombre: "Smart TV OLED 55\"", marca: "LG", stock: 3, precio: 1800 },
+    { nombre: "Consola PlayStation 5", marca: "Sony", stock: 5, precio: 550 },
+    { nombre: "Consola Xbox Series X", marca: "Microsoft", stock: 4, precio: 500 },
+    { nombre: "Router Mesh Deco X60", marca: "TP-Link", stock: 8, precio: 300 },
+    { nombre: "Cámara de seguridad Arlo Pro 4", marca: "Arlo", stock: 5, precio: 350 },
+    { nombre: "Disco duro externo 5TB", marca: "Western Digital", stock: 6, precio: 180 },
+    { nombre: "Lámpara LED inteligente Philips Hue", marca: "Philips", stock: 7, precio: 75 },
+    { nombre: "Estación de carga USB-C 100W", marca: "Anker", stock: 10, precio: 120 }
+];
+
