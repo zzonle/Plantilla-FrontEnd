@@ -7,14 +7,21 @@ body {
     grid-template-rows: auto 1fr auto;
 }
 .main-content {
-    padding: 20px; /* Para separar el contenido */
-    max-width: 1200px; /* Limita el ancho */
-    margin: auto; /* Centra la sección */
+    padding: 20px; 
+    max-width: 1200px; 
+    margin: auto;
 }
 
-#inventario-tabla {
-    margin: 20px auto; 
-    width: 90%;
-    padding: auto;
-    border-collapse: collapse;
+.altura-maxima {
+    max-height: 500px;
+    max-width: 90%;
+    position: relative;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.table th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
